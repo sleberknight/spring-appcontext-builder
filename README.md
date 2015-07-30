@@ -56,7 +56,8 @@ in an annotation-based configuration class, for example:
 @Configuration
 @ImportResource("applicationContext.xml")
 public class XmlImportingConfiguration {
-    // ...
+    
+    // other configuration code...
 }
 
 ApplicationContext context = new SpringContextBuilder()
@@ -67,4 +68,4 @@ ApplicationContext context = new SpringContextBuilder()
 ```
 
 Once you've constructed your application context, you can do whatever you need with it.
-Most likely, you'll be getting some beans out of it.
+Most likely, you'll be getting some beans out of it...
